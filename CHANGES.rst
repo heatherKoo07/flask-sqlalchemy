@@ -1,3 +1,13 @@
+Version 3.1.0
+-------------
+
+Unreleased
+
+-   Remove previously deprecated code.
+-   Pass extra keyword arguments from ``get_or_404`` to ``session.get``. :issue:`1149`
+-   ``Pagination.next()`` enforces ``max_per_page``. :issue:`1201`
+
+
 Version 3.0.3
 -------------
 
